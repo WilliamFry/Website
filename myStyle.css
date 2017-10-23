@@ -1,0 +1,75 @@
+html{
+	height: 100%;
+}
+
+.formcontainer{
+	background-color: white;
+	margin-left:600px;
+	margin-right:600px;
+	margin-top:50px;
+	padding: 20px;
+	padding-top:20px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, .5);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+body{
+	background-color: #ffa11e;
+	background: linear-gradient(to bottom, #ff8e00, #ff7400);
+}
+
+@media only screen and (max-width: 1700px) {
+	.formcontainer{
+		margin-left:500px;
+		margin-right:500px;
+	}
+}
+
+
+@media only screen and (max-width: 1600px) {
+	.formcontainer{
+		margin-left:300px;
+		margin-right:300px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.formcontainer{
+		/*width:300px;*/
+		margin-left:180px;
+		margin-right:180px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.formcontainer{
+		/*width:300px;*/
+		margin-left:100px;
+		margin-right:100px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.formcontainer{
+		/*width:300px;*/
+		margin-left:5px;
+		margin-right:5px;
+	}
+}
+
+button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.clear{
+	float:right;
+	width:64%;
+}
+
+.submit{
+	float:left;
+	width:35%;
+}

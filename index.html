@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example for Jquery Plugin</title>
+	<script src="js/TextFieldStyling.js"></script>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+</head>
+
+<script>
+$(document).ready(function(){
+	$( "#activteJquery" ).click(function() {
+		JqueryInputTheme();
+	});
+});
+
+
+</script>
+
+<body>
+	<button id="activteJquery" style="background-color: #ff7400;">Activate Jquery Styling</button>
+
+	<div class='formcontainer'>
+		<div class='row'>
+			<label class="" style="font-family:'Ubuntu', sans-serif;">Your feed back is welcome</label>
+		</div>
+
+		<div class='row'>
+			<input type="email" class="form-control email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
+		</div>
+
+		<div class='row'>
+			<input type="password" class="form-control password" id="exampleInputPassword1" placeholder="Password">
+
+			<label class="helperText" style="">Password should be atleast 8 characters long</label>
+		</div>
+
+		<div class='row'>
+			<label class="comment" style="">Type your feed back here</label>
+		</div>
+
+		<div class='row'>
+			<textarea style=""></textarea>
+		</div>
+
+		<div class=''>
+			<button class="clear" type="button" class="ClearButton">CLEAR</button>
+
+			<button class="submit" type="button" class="ClearButton">SUBMIT</button>
+
+			<label class="helperText1" style="">Enter all Fields</label>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
